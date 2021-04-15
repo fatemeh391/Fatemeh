@@ -1,0 +1,23 @@
+
+//creates an alert
+
+/* 
+This is a
+multi-line comment
+*/
+
+alert("Fatemeh Ghorbani's portfolio-QUT(School of Psychology and Councelling)");
+
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+
+function openMenu() {
+
+    var x = document.getElementById("portfolioTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } 
+    else {
+      x.className = "topnav";
+    }
+
+  }

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html>
+
+
+
+  <head>
+    <link href="./style.css" type="text/css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+
+    <title>
+     Fatemeh Ghorbani's Portfolio
+    </title>
+  </head>
+
+  <body> 
+  <header>
+    <nav class="topnav" id="portfolioTopnav">
+      <ul>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#accomplishment">Accomplishment</a>
+        <a href="#contactsection">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="openMenu()"><i class="fa fa-bars"></i></a>
+      </ul>
+    </nav>
+  </header>
+  <h1>Fatemeh Ghorbani</h1>
+  <main>
+  
+      
+
+      <!--About Section -->
+      <div>
+        <figure>
+          <img src="profile2.jpg" width="200" height="200" alt="My profile photo."/>
+          
+        </figure>
+        <h2 class="heading uppercase " id="about">About</h2>
+          
+          <p>I am a <strong>Cognitive Neuroscientist</strong> and my research focus is on <em>brain signal analysis with Deep Learning approaches</em> such as LSTM and graph-based neural networks.</p>
+        
+        <h2 id="skills">Skills</h2>
+          <h3>
+            <h4 class="Rskills">Research Skills</h4>
+            
+            <ul class="list">
+              <li>Qualifications in biosignal processing, more specific EEG biosignals with a strong knowledge of pattern recognition and Machine Learning;</li>
+              <li>Demonstrated skills in forecasting techniques including neural network; </li>
+              <li>Recording physiological signals (EEG, ECG, GSR);</li>
+            </ul>
+            
+            
+            <h4 class="Rskills">Technical Skills</h4>
+              <ul class="list">
+                <li>Strong knowledge of signal processing and software such as MATLAB and Python;</li>
+                <li>Programming language: MATLAB, python (PyTorch, Tensorflow, Keras);</li>
+                <li>Advanced computer skills in Microsoft Office (Excel, Word, PowerPoint, Visio, Outlook);</li>
+              </ul>
+          </h3>
+        
+      </div>
+
+      <div id="accomplishment">
+        <h2>Accomplishments
+          <h3>
+          <table style="margin-left:auto;margin-right:auto;">
+            <tr>
+              <th scope = "col">
+                Publications
+                <td>Awards</td>
+                <td>Presentations</td>
+              </th>
+            </tr>
+
+
+            <tr>
+              <th scope = "row">
+                <p>Effects of music on cardiac functioning in young women and men</p>
+   
+                <td>
+                    <ul>
+                      <li><p>QUT Postgraduate Research Award (QUTPRA) (International)</p></li>
+                      <li><p>QUT HDR Tuition Fee Sponsorship</p></li>
+                    </ul>
+                </td>
+              
+                <td><p>QUT HDR Symposium</p></td>
+              </th>
+            
+            </tr>
+          </table>
+          <h3>Coding Examples</h3>
+          <a href = "./quiz.html" target="_blank">Take the Portfolio Quiz!</a>
+         
+          
+          </h3>
+        </h2>
+      </div>
+
+      <div id="contactsection">
+        <h2 class="contactform">Contact</h2>
+          <a href = "https://www.linkedin.com/in/fatemeh-ghorbani-9519685a/" target="_blank">
+            <h5>Linkedin</h5></a>
+            <br>
+            <br>
+        
+        <form>
+          <!-- Be careful that if you want "required" work, you should put all input under one form and finish it with the submit-->
+          <label for="name"><h5>Type your name below:</h5></label>
+          <input type="text" id="name" name="name" required>
+
+        
+          <label for="email"><h5>*Email:</h5></label>
+          <input id="email" name="email" type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+        
+        
+          <label for="mobile"><h5>Mobile (optional)</h5></label>
+          <input id="mobile" name="mobile" type="tel" pattern="[0-9]{10,16}" required>
+
+        
+          <label for="message"><h5>Leave your message below:</h5></label>
+          <textarea id="message" type="textarea" name="message" rows="5" cols="30" required></textarea>
+          <br>
+          <br>
+          <input type="Submit">
+        </form>    
+          
+        
+      </div>
+
+    </main>
+    <script src="./nav.js"></script>
+  </body>
+
+
+
+</html>
