@@ -39,7 +39,7 @@ const quizQuestions = [{
   },
 
   {
-    question: "Johanna is super passionate about:",
+    question: "Fatemeh is super passionate about:",
     answers: {
       a: "Behavioral Experiments",
       b: "Visual Perception",
